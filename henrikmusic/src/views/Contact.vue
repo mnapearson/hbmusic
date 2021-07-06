@@ -1,18 +1,19 @@
 <template>
-  <div class="about">
+  <div class="contact">
     <Nav />
-    <h1>about</h1>
+    <h1>contact</h1>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
 import Nav from "@/components/Nav.vue";
 
 export default {
-  name: "About",
+  name: "Contact",
   components: {
     Nav,
   },
 };
 </script>
+
+<style scoped></style>
