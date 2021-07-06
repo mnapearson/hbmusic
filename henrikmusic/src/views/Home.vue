@@ -1,7 +1,9 @@
 <template>
   <div class="home">
     <Nav />
-    <h1>home</h1>
+    <div class="image">
+      <img src="../images/henrikmainpic.png" alt="" />
+    </div>
   </div>
 </template>
 
@@ -16,3 +18,18 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.image {
+  position: absolute;
+
+  left: 50%;
+
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+}
+img {
+  height: 650px;
+}
+</style>
