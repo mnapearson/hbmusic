@@ -76,7 +76,8 @@ export default {
 .audio {
   position: fixed;
   right: 0;
-  margin-right: 2rem;
+  top: 0;
+  margin: 1rem;
 }
 
 .link {

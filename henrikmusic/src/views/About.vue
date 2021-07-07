@@ -1,7 +1,33 @@
 <template>
   <div class="about">
     <Nav />
-    <h1>about</h1>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
+          quos animi provident, asperiores quasi, nesciunt velit rem architecto
+          fugit officia sit tempore. Deserunt sapiente velit, dolores explicabo
+          quaerat ipsum officiis vero officia, nostrum placeat voluptatibus
+          vitae architecto, dolor eveniet repellat laboriosam voluptatum omnis
+          provident natus soluta tempora et! Sed magnam reprehenderit harum
+          omnis, quae perferendis, quos quaerat soluta nemo ratione dolor
+          voluptatum. Dolores, fugit sed consequuntur laboriosam vitae ullam
+          nemo animi nulla, rem, fugiat cumque saepe. Nam illum sequi doloremque
+          suscipit tempora? Maxime architecto cupiditate ipsa et aperiam,
+          veritatis nihil, veniam, hic impedit beatae eveniet numquam provident
+          nostrum quam deserunt!
+        </p>
+        <p>
+          Dolores, fugit sed consequuntur laboriosam vitae ullam nemo animi
+          nulla, rem, fugiat cumque saepe. Nam illum sequi doloremque suscipit
+          tempora?
+        </p>
+      </div>
+      <div class="about-carousel">
+        <img src="../images/henrikslide1.png" alt="" />
+        <img src="../images/henrikslide2.png" alt="" />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -16,3 +42,34 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.about {
+  position: fixed;
+  top: 25%;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about-text {
+  width: 25%;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.about-carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 350px;
+  margin-bottom: 1rem;
+}
+</style>
