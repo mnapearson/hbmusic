@@ -1,15 +1,25 @@
 <template>
   <div class="contact">
     <Nav />
-    <form ref="contact" class="contact-form" @submit.prevent="sendEmail">
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message"></textarea>
+    <form
+      ref="contact"
+      class="contact-form"
+      @submit.prevent="sendEmail"
+      v-if="!successMessage"
+    >
+      <input type="text" name="user_name" placeholder="name" />
+
+      <input type="email" name="user_email" placeholder="email" />
+
+      <textarea name="message" placeholder="message"></textarea>
       <input type="submit" value="Send" />
     </form>
+    <div class="success" v-if="successMessage">
+      <p>
+        Thank you for your inquiry. <br />You will receive a reply as soon as
+        possible.
+      </p>
+    </div>
   </div>
 </template>
 
@@ -19,28 +29,39 @@ import emailjs from "emailjs-com";
 
 export default {
   name: "Contact",
-
   components: {
     Nav,
   },
+  data() {
+    return {
+      name: "",
+      email: "",
+      message: "",
+      successMessage: false,
+    };
+  },
   methods: {
-    sendEmail: (e) => {
-      emailjs
-        .sendForm(
+    sendEmail(e) {
+      try {
+        emailjs.sendForm(
           "service_9kxr7d6",
           "template_yffeype",
           e.target,
-          "user_o6tM95YAVRykwYE7z90AI"
-        )
-        .then(
-          (result) => {
-            console.log("SUCCESS!", result.status, result.text);
-          },
-          (error) => {
-            console.log("FAILED...", error);
+          "user_o6tM95YAVRykwYE7z90AI",
+          {
+            name: this.name,
+            email: this.email,
+            message: this.message,
           }
         );
-      this.$refs.contact.resetFields();
+      } catch (error) {
+        console.log({ error });
+      }
+      // Reset form field
+      this.name = "";
+      this.email = "";
+      this.message = "";
+      this.successMessage = true;
     },
   },
 };
@@ -50,7 +71,7 @@ export default {
 .contact {
   position: fixed;
   top: 30%;
-  left: 20%;
+  left: 30%;
 }
 
 .container {
@@ -86,5 +107,17 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
+  background: black;
+  color: white;
+}
+
+.success {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 40%;
+  left: 40%;
+  text-align: center;
 }
 </style>
