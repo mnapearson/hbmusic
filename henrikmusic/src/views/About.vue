@@ -45,21 +45,20 @@ export default {
 
 <style scoped>
 .about-content {
+  display: flex;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  width: 70%;
 }
 
 .about-text {
   font-size: 12px;
   line-height: 22px;
-  width: 50%;
-  margin-right: 2rem;
+  min-width: 50%;
+  margin-right: 3rem;
 }
 
 .about-carousel {

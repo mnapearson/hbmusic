@@ -3,15 +3,35 @@
     <Nav />
     <div class="projects-grid">
       <div class="project one">
-        <router-link class="link" to="/project-details"
+        <router-link class="link" to="/project-one"
           ><p>project one</p></router-link
         >
       </div>
-      <div class="project two"></div>
-      <div class="project three"></div>
-      <div class="project four"></div>
-      <div class="project five"></div>
-      <div class="project six"></div>
+      <div class="project two">
+        <router-link class="link" to="/project-two"
+          ><p>project two</p></router-link
+        >
+      </div>
+      <div class="project three">
+        <router-link class="link" to="/project-three"
+          ><p>project three</p></router-link
+        >
+      </div>
+      <div class="project four">
+        <router-link class="link" to="/project-four"
+          ><p>project four</p></router-link
+        >
+      </div>
+      <div class="project five">
+        <router-link class="link" to="/project-five"
+          ><p>project five</p></router-link
+        >
+      </div>
+      <div class="project six">
+        <router-link class="link" to="/project-six"
+          ><p>project six</p></router-link
+        >
+      </div>
     </div>
   </div>
 </template>

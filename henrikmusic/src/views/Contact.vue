@@ -96,15 +96,7 @@ export default {
   text-align: center;
   font-size: 12px;
   line-height: 22px;
-}
-
-.container {
-  display: block;
-  margin: auto;
-  text-align: center;
-  border-radius: 5px;
-  padding: 20px;
-  width: 50%;
+  min-width: 70%;
 }
 
 label {
@@ -119,7 +111,6 @@ textarea {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical;
 }
 
 input[type="submit"] {

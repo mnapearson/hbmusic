@@ -38,13 +38,58 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/Projects.vue"),
   },
   {
-    path: "/project-details",
-    name: "ProjectDetails",
+    path: "/project-one",
+    name: "ProjectOne",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/ProjectDetails.vue"),
+      import(/* webpackChunkName: "about" */ "../components/ProjectOne.vue"),
+  },
+  {
+    path: "/project-two",
+    name: "ProjectTwo",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../components/ProjectTwo.vue"),
+  },
+  {
+    path: "/project-three",
+    name: "ProjectThree",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../components/ProjectThree.vue"),
+  },
+  {
+    path: "/project-four",
+    name: "ProjectFour",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../components/ProjectFour.vue"),
+  },
+  {
+    path: "/project-five",
+    name: "ProjectFive",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../components/ProjectFive.vue"),
+  },
+  {
+    path: "/project-six",
+    name: "ProjectSix",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../components/ProjectSix.vue"),
   },
 ];
 
