@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@iconify/icons-akar-icons@^1.1.16":
+  version "1.1.16"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-akar-icons/-/icons-akar-icons-1.1.16.tgz#8789a154a4a9c8c145a717b9c8a75feddcbd3777"
+  integrity sha512-9cTsrKwwya3ayGLAYibohOoophJH75/HC0knfumPmVPhziirK5Ty5ikNxug403Oj8a2qGZy3UGeQTFmNg0TKBQ==
+
 emailjs-com@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/emailjs-com/-/emailjs-com-3.1.0.tgz#442927269bf04f366ca30d67b4272f55961979da"

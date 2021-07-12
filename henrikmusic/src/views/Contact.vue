@@ -94,6 +94,8 @@ export default {
 
 .contact-form {
   text-align: center;
+  font-size: 12px;
+  line-height: 22px;
 }
 
 .container {

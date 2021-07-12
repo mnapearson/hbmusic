@@ -45,6 +45,8 @@ export default {
   height: 200px;
   border: 1px solid black;
   margin: 1rem;
+  font-size: 12px;
+  line-height: 22px;
 }
 
 .link {
