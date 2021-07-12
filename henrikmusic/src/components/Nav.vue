@@ -88,9 +88,11 @@ export default {
 }
 .top {
   position: fixed;
+  display: flex;
   top: 0;
-  right: 43%;
-  margin: 1rem;
+  left: 50%;
+  margin-top: 2rem;
+  transform: translate(-50%, -50%);
 }
 .top .link:hover,
 .top .router-link-exact-active {
@@ -100,9 +102,10 @@ export default {
 
 .left {
   position: fixed;
+  display: flex;
   left: 0;
   top: 50%;
-  margin: 1rem;
+  margin-left: 1rem;
   transform: rotate(-90deg);
 }
 
@@ -113,9 +116,11 @@ export default {
 }
 .bottom {
   position: fixed;
+  display: flex;
   bottom: 0;
-  right: 47%;
-  margin: 1rem;
+  left: 50%;
+  margin-bottom: 1rem;
+  transform: translate(-50%, -50%);
 }
 .bottom .link:hover,
 .bottom .router-link-active {
@@ -125,9 +130,10 @@ export default {
 
 .right {
   position: fixed;
+  display: flex;
   right: 0;
   top: 50%;
-  margin: 1rem;
+  margin-right: 1rem;
   transform: rotate(90deg);
 }
 .right .link:hover,

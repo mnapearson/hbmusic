@@ -44,21 +44,22 @@ export default {
 </script>
 
 <style scoped>
-.about {
-  position: fixed;
-  top: 25%;
-}
-
 .about-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  width: 70%;
 }
 
 .about-text {
-  width: 25%;
   font-size: 12px;
-  line-height: 20px;
+  line-height: 22px;
+  width: 50%;
+  margin-right: 2rem;
 }
 
 .about-carousel {
