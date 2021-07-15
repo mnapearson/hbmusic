@@ -4,23 +4,36 @@
     <div class="project-main">
       <div class="project-left">
         <div class="project-description">
-          <h3>Project One</h3>
+          <h3>extraviolette</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
-            laborum quisquam, natus quia sequi, doloremque quo illo omnis,
-            veritatis consectetur iste? Repudiandae perferendis odit, unde,
-            mollitia facere voluptas error sit voluptatibus, aspernatur debitis
-            alias quos quo suscipit laborum reiciendis voluptatem.
+            Die Floral Geräucherte extra heiße Band, die selbst den Papst zum
+            tanzen kriegt ist ready . Extraviolette steht für Disco, Liebe,
+            Vielfalt, Loslassen, Befreiung und die Nacht durch-tanzen.
+            Extraviolette ist die Farbe der Emanzipation – Emanzipation aller
+            Geschlechter und Gedanken, die Farbe der Verwandlung, der
+            Inspiration und der Individualität. Sie will euch auf eine Auszeit
+            für eure Sorgen mitnehmen und macht einen „extra“ Workout für euer
+            inneres Licht und eure Füße. Inspiriert von dem Geist und der
+            Energie der Discoera der 1970er Jahre, bringen sie eine mitreißende
+            Show auf die Bühne, in der man sich gerne verliert.
+          </p>
+          <p>
+            Die 9 Musiker*innen aus Leipzig sind im dritten Jahr ihres Bestehens
+            zu einer schlagfertigen Truppe zusammengewachsen, mit dem Ziel ihren
+            Sound und ihre Liebe zu Disco, Funk und Soul auf die Tanzflächen
+            dieser Welt zu bringen. Die Party ist da wo sie sind! Stay tuned!
           </p>
         </div>
         <div class="project-events">
-          <h3>Events</h3>
+          <h3>upcoming shows</h3>
           <p>date/place</p>
           <p>date/place</p>
         </div>
       </div>
       <div class="project-right">
-        <div class="project-image"></div>
+        <div class="project-image">
+          <img src="../images/extraviolette.jpg" alt="" />
+        </div>
         <div class="project-links">
           <span
             class="iconify"
@@ -42,11 +55,13 @@
             data-inline="false"
             data-icon="ei:sc-soundcloud"
           ></span>
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="bi:youtube"
-          ></span>
+          <a href="https://www.youtube.com/watch?v=-okFMwPcBYA"
+            ><span
+              class="iconify"
+              data-inline="false"
+              data-icon="bi:youtube"
+            ></span
+          ></a>
         </div>
       </div>
       <div class="next-project">
@@ -91,7 +106,7 @@ export default {
 }
 
 .project-left {
-  min-width: 70%;
+  min-width: 60%;
   margin-right: 4rem;
 }
 
@@ -102,9 +117,9 @@ export default {
   align-items: center;
 }
 
-.project-image {
-  width: 200px;
-  height: 200px;
+.project-image img {
+  width: auto;
+  height: 250px;
   border: 1px solid;
   margin-bottom: 1rem;
 }
@@ -121,7 +136,7 @@ export default {
   flex-wrap: nowrap;
   text-decoration: none;
   color: black;
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 .link p {
@@ -136,5 +151,9 @@ export default {
 .link :hover {
   color: limegreen;
   text-decoration: bold;
+}
+
+a {
+  color: black;
 }
 </style>

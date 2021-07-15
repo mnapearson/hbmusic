@@ -3,19 +3,26 @@
     <Nav />
     <div class="projects-grid">
       <div class="project one">
-        <router-link class="link" to="/project-one"
-          ><p>project one</p></router-link
-        >
+        <router-link class="link" to="/project-one">
+          <div class="container">
+            <div class="centered">extraviolette</div>
+            <img src="../images/extraviolette.jpg" alt="" />
+          </div>
+        </router-link>
       </div>
       <div class="project two">
-        <router-link class="link" to="/project-two"
-          ><p>project two</p></router-link
-        >
+        <router-link class="link" to="/project-two">
+          <div class="container">
+            <div class="centered">oluma</div>
+            <img src="../images/Oluma.jpg" alt="" /></div
+        ></router-link>
       </div>
       <div class="project three">
-        <router-link class="link" to="/project-three"
-          ><p>project three</p></router-link
-        >
+        <router-link class="link" to="/project-three">
+          <div class="container">
+            <div class="centered">saxophon unterricht</div>
+            <img src="../images/teacher.jpg" alt="" /></div
+        ></router-link>
       </div>
       <div class="project four">
         <router-link class="link" to="/project-four"
@@ -57,16 +64,31 @@ export default {
 }
 
 .project {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   width: 200px;
   height: 200px;
-  border: 1px solid black;
   margin: 1rem;
   font-size: 12px;
-  line-height: 22px;
+  border: 1px solid black;
+}
+
+.project img {
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  padding: 0.5rem 1rem;
 }
 
 .link {

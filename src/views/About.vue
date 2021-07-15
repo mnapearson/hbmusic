@@ -4,23 +4,23 @@
     <div class="about-content">
       <div class="about-text">
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
-          quos animi provident, asperiores quasi, nesciunt velit rem architecto
-          fugit officia sit tempore. Deserunt sapiente velit, dolores explicabo
-          quaerat ipsum officiis vero officia, nostrum placeat voluptatibus
-          vitae architecto, dolor eveniet repellat laboriosam voluptatum omnis
-          provident natus soluta tempora et! Sed magnam reprehenderit harum
-          omnis, quae perferendis, quos quaerat soluta nemo ratione dolor
-          voluptatum. Dolores, fugit sed consequuntur laboriosam vitae ullam
-          nemo animi nulla, rem, fugiat cumque saepe. Nam illum sequi doloremque
-          suscipit tempora? Maxime architecto cupiditate ipsa et aperiam,
-          veritatis nihil, veniam, hic impedit beatae eveniet numquam provident
-          nostrum quam deserunt!
+          Henrik Baumgarten ist ein professioneller Saxophonist, aus Leipzig.
+          Angefangen im Landesjugendjazzorchester Brandenburg, unter Jiggs
+          Whigham., 2006 steht er seit 2007 mit den verschiedensten Formationen
+          auf der Bühne. Es folgten während seines Saxophonstudiums 2010 - 2015
+          die projekte
+          <a href="https://www.youtube.com/watch?v=iP3sJYubXPk"> T.O.Y.</a>,
+          Engagements im Leipziger Central Theater und regelmäßige Auftritte in
+          der leipziger Jazzszene.
         </p>
         <p>
-          Dolores, fugit sed consequuntur laboriosam vitae ullam nemo animi
-          nulla, rem, fugiat cumque saepe. Nam illum sequi doloremque suscipit
-          tempora?
+          In dieser Zeit erlernte er auch autodidaktisch Klarinette und
+          Querflöte. 2015-2020 war er Mitglied in der in Leipzig ansässigen
+          BigBand „Spielvereinigung Sued“ und deren Kooperation „Brigade Futur
+          III“ Musikalisch fühlt er sich vor allem seinen Instrumenten
+          verpflichtet und versucht in seiner Musik die klanglichen
+          Möglichkeiten des Saxophons und der Klarinette auszureizen.
+          Instrumentaler Freigeist mit Mut zum Kitsch.
         </p>
       </div>
       <div class="about-carousel">

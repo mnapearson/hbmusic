@@ -14,24 +14,37 @@
         </div>
         <div class="project-description">
           <div class="project-title">
-            <h3>Project Two</h3>
+            <h3>oluma</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
-              laborum quisquam, natus quia sequi, doloremque quo illo omnis,
-              veritatis consectetur iste? Repudiandae perferendis odit, unde,
-              mollitia facere voluptas error sit voluptatibus, aspernatur
-              debitis alias quos quo suscipit laborum reiciendis voluptatem.
+              OLUMA besteht aus neun jungen Musiker*innen, die ihre Leidenschaft
+              für Musik teilen, die vom Afrobeat der späten 60er und der 70er
+              Jahre inspiriert wurde.Gegründet vom Bassisten Gregor Nicolai,
+              Drummer André van der Heide und Saxophonist Roman Polatzky, hat
+              sich der Rest der Band während des Musikstudiums gefunden.Ihr
+              Sound ist vor allem von West-Afrikanischer und Brasilianischer
+              Musik, sowie Funk und Jazz beeinflusst.
+            </p>
+            <p>
+              Erstmals veröffentlicht hat die Band ihre Musik in einer
+              Live-Session aus dem NEUES SCHAUSPIEL Leipzig. Die drei dabei
+              entstanden Videos gibt es auf ihrem Youtube-Kanal - Schaut gerne
+              vorbei und lasst ein Abo da.
             </p>
           </div>
           <div class="project-events">
-            <h3>Events</h3>
-            <p>date/place</p>
-            <p>date/place</p>
+            <h3>upcoming shows</h3>
+            <p>14.08.2021 Roots & Sprouts Festival- Leipzig</p>
+            <p>
+              03.09.2021 Musikfestival Künstlerhaus- Colditz Colditz/Leipzig
+            </p>
+            <p>29.10.2021 Horns Erben- Arndtstraße 33, 04275 Leipzig</p>
           </div>
         </div>
       </div>
       <div class="project-right">
-        <div class="project-image"></div>
+        <div class="project-image">
+          <img src="../images/Oluma.jpg" alt="" />
+        </div>
         <div class="project-links">
           <span
             class="iconify"
@@ -53,11 +66,13 @@
             data-inline="false"
             data-icon="ei:sc-soundcloud"
           ></span>
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="bi:youtube"
-          ></span>
+          <a href="https://www.youtube.com/channel/UCiuIOZLXOO0DTyKJrccaM1Q"
+            ><span
+              class="iconify"
+              data-inline="false"
+              data-icon="bi:youtube"
+            ></span
+          ></a>
         </div>
       </div>
       <div class="next-project">
@@ -115,9 +130,9 @@ export default {
   align-items: center;
 }
 
-.project-image {
-  width: 200px;
-  height: 200px;
+.project-image img {
+  width: auto;
+  height: 300px;
   border: 1px solid;
   margin-bottom: 1rem;
 }
@@ -149,5 +164,8 @@ export default {
 .link :hover {
   color: limegreen;
   text-decoration: bold;
+}
+a {
+  color: black;
 }
 </style>
