@@ -14,27 +14,18 @@
         </div>
         <div class="project-description">
           <div class="project-title">
-            <h3>saxophon unterricht</h3>
-            <p>
-              Ich gebe seit 2015 unterricht für Saxophon oder Klarinette. Gerne
-              teile ich meine Erfahrungen und Fähigkeiten. Egal ob du Anfänger
-              bist oder dich auf ein Musikstudium vorbereitest, kann ich dir
-              Wege zeigen wie du alle Aspekte des Musikmachens – das Gehör, die
-              Musiktheorie, die Improvisation etc. voran bringst Ich unterrichte
-              Privat in meinem Proberaum in Leipzig Großzschocher und an der
-              „Neue Musik Leipzig“
-            </p>
+            <h3>Traumgaben</h3>
+            <p>My own Jazz.</p>
           </div>
           <div class="project-events">
-            <h3>Events</h3>
-            <p>date/place</p>
-            <p>date/place</p>
+            <h3>upcoming shows</h3>
+            <p>tbd</p>
           </div>
         </div>
       </div>
       <div class="project-right">
         <div class="project-image">
-          <img src="../images/proberaum.jpeg" alt="" />
+          <img src="../images/traumgaben.png" alt="" />
         </div>
         <div class="project-links">
           <span
@@ -51,12 +42,16 @@
             class="iconify"
             data-inline="false"
             data-icon="simple-icons:bandcamp"
-          ></span>
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="ei:sc-soundcloud"
-          ></span>
+          ></span
+          ><a
+            href="https://soundcloud.com/traumgaben?fbclid=IwAR3UTIaZ5rpU9cto199dx9xAWlyddN5iBKidQKVlCWNPo57g3lFPNF2Uqp4"
+          >
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="ei:sc-soundcloud"
+            ></span
+          ></a>
           <span
             class="iconify"
             data-inline="false"
@@ -81,7 +76,7 @@
 import Nav from "@/components/Nav.vue";
 
 export default {
-  name: "ProjectThree",
+  name: "ProjectSix",
   components: {
     Nav,
   },
@@ -102,6 +97,7 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  margin-right: 3rem;
 }
 
 .project-left {
@@ -109,7 +105,7 @@ export default {
   justify-content: center;
   align-items: center;
   min-width: 70%;
-  margin-right: 3rem;
+  margin-right: 5rem;
 }
 
 .project-right {
@@ -121,7 +117,7 @@ export default {
 
 .project-image img {
   width: auto;
-  height: 200px;
+  height: 300px;
   border: 1px solid;
   margin-bottom: 1rem;
 }
@@ -131,6 +127,11 @@ export default {
   margin: 0.5rem;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
 .link {
   display: flex;
   justify-content: center;
@@ -138,7 +139,7 @@ export default {
   flex-wrap: nowrap;
   text-decoration: none;
   color: black;
-  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .link p {
@@ -147,7 +148,7 @@ export default {
 }
 
 .link .iconify {
-  margin-right: 3rem;
+  margin-right: 0.2rem;
 }
 
 .link :hover {

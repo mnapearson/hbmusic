@@ -33,11 +33,11 @@
           </div>
           <div class="project-events">
             <h3>upcoming shows</h3>
-            <p>14.08.2021 Roots & Sprouts Festival- Leipzig</p>
+            <p>14.08.2021 @Roots & Sprouts Festival- Leipzig</p>
             <p>
-              03.09.2021 Musikfestival Künstlerhaus- Colditz Colditz/Leipzig
+              03.09.2021 @Musikfestival Künstlerhaus- Colditz Colditz/Leipzig
             </p>
-            <p>29.10.2021 Horns Erben- Arndtstraße 33, 04275 Leipzig</p>
+            <p>29.10.2021 @Horns Erben- Arndtstraße 33, 04275 Leipzig</p>
           </div>
         </div>
       </div>

@@ -14,24 +14,19 @@
         </div>
         <div class="project-description">
           <div class="project-title">
-            <h3>Project Four</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
-              laborum quisquam, natus quia sequi, doloremque quo illo omnis,
-              veritatis consectetur iste? Repudiandae perferendis odit, unde,
-              mollitia facere voluptas error sit voluptatibus, aspernatur
-              debitis alias quos quo suscipit laborum reiciendis voluptatem.
-            </p>
+            <h3>Ameba</h3>
+            <p>Live Hip Hop Jazz Fusion</p>
           </div>
           <div class="project-events">
-            <h3>Events</h3>
-            <p>date/place</p>
-            <p>date/place</p>
+            <h3>upcoming shows</h3>
+            <p>06.08.2021 @Casa Pepe, Leipzig</p>
           </div>
         </div>
       </div>
       <div class="project-right">
-        <div class="project-image"></div>
+        <div class="project-image">
+          <img src="../images/ameba.jpg" alt="" />
+        </div>
         <div class="project-links">
           <span
             class="iconify"
@@ -115,9 +110,9 @@ export default {
   align-items: center;
 }
 
-.project-image {
-  width: 200px;
-  height: 200px;
+.project-image img {
+  width: auto;
+  height: 300px;
   border: 1px solid;
   margin-bottom: 1rem;
 }

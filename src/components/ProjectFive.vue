@@ -14,50 +14,60 @@
         </div>
         <div class="project-description">
           <div class="project-title">
-            <h3>Project Five</h3>
+            <h3>Brigade Futur 3</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
-              laborum quisquam, natus quia sequi, doloremque quo illo omnis,
-              veritatis consectetur iste? Repudiandae perferendis odit, unde,
-              mollitia facere voluptas error sit voluptatibus, aspernatur
-              debitis alias quos quo suscipit laborum reiciendis voluptatem.
+              Die Antikapitalistische Kampfband.! Eine Kooperation Aus Berlin
+              und Leipzig. Schaut mal rein und kauft weniger!
             </p>
           </div>
           <div class="project-events">
-            <h3>Events</h3>
-            <p>date/place</p>
-            <p>date/place</p>
+            <h3>upcoming shows</h3>
+            <p>tbd</p>
           </div>
         </div>
       </div>
       <div class="project-right">
-        <div class="project-image"></div>
+        <div class="project-image">
+          <img src="../images/brigadefutur3.png" alt="" />
+        </div>
         <div class="project-links">
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="akar-icons:spotify-fill"
-          ></span>
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="cib:apple-music"
-          ></span>
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="simple-icons:bandcamp"
-          ></span>
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="ei:sc-soundcloud"
-          ></span>
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="bi:youtube"
-          ></span>
+          <a href="https://open.spotify.com/album/0ePxWyTIpepcISBETJUizq">
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="akar-icons:spotify-fill"
+            ></span></a
+          ><a
+            href="https://music.apple.com/de/album/alles-wird-gut-gegangen-sein-werden/1306726253?app=music"
+          >
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="cib:apple-music"
+            ></span></a
+          ><a
+            href="https://whyplayjazz.bandcamp.com/album/alles-wird-gut-gegangen-sein-werden"
+          >
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="simple-icons:bandcamp"
+            ></span></a
+          ><a
+            href="https://soundcloud.com/whyplayjazz/brigade-futur-iii-alles-wird-gut-gegangen-sein-werden-album-teaser"
+          >
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="ei:sc-soundcloud"
+            ></span></a
+          ><a href="https://www.youtube.com/watch?v=sboblPq5Mfo&t=2s">
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="bi:youtube"
+            ></span
+          ></a>
         </div>
       </div>
       <div class="next-project">
@@ -115,9 +125,9 @@ export default {
   align-items: center;
 }
 
-.project-image {
-  width: 200px;
-  height: 200px;
+.project-image img {
+  width: auto;
+  height: 300px;
   border: 1px solid;
   margin-bottom: 1rem;
 }
@@ -149,5 +159,10 @@ export default {
 .link :hover {
   color: limegreen;
   text-decoration: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 </style>

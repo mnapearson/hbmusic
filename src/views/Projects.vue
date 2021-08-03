@@ -20,24 +20,30 @@
       <div class="project three">
         <router-link class="link" to="/project-three">
           <div class="container">
-            <div class="centered">saxophon unterricht</div>
-            <img src="../images/teacher.jpg" alt="" /></div
+            <div class="centered">traumgaben</div>
+            <img src="../images/traumgaben.png" alt="" /></div
         ></router-link>
       </div>
       <div class="project four">
-        <router-link class="link" to="/project-four"
-          ><p>project four</p></router-link
-        >
+        <router-link class="link" to="/project-four">
+          <div class="container">
+            <div class="centered">ameba</div>
+            <img src="../images/ameba.jpg" alt="" /></div
+        ></router-link>
       </div>
       <div class="project five">
-        <router-link class="link" to="/project-five"
-          ><p>project five</p></router-link
-        >
+        <router-link class="link" to="/project-five">
+          <div class="container">
+            <div class="centered">brigade futur 3</div>
+            <img src="../images/brigadefutur3.png" alt="" /></div
+        ></router-link>
       </div>
       <div class="project six">
-        <router-link class="link" to="/project-six"
-          ><p>project six</p></router-link
-        >
+        <router-link class="link" to="/project-six">
+          <div class="container">
+            <div class="centered">saxophon unterricht</div>
+            <img src="../images/teacher.jpg" alt="" /></div
+        ></router-link>
       </div>
     </div>
   </div>

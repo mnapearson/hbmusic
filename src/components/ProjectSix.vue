@@ -14,26 +14,30 @@
         </div>
         <div class="project-description">
           <div class="project-title">
-            <h3>Project Six</h3>
+            <h3>saxophon unterricht</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
-              laborum quisquam, natus quia sequi, doloremque quo illo omnis,
-              veritatis consectetur iste? Repudiandae perferendis odit, unde,
-              mollitia facere voluptas error sit voluptatibus, aspernatur
-              debitis alias quos quo suscipit laborum reiciendis voluptatem.
+              Ich gebe seit 2015 unterricht für Saxophon oder Klarinette. Gerne
+              teile ich meine Erfahrungen und Fähigkeiten. Egal ob du Anfänger
+              bist oder dich auf ein Musikstudium vorbereitest, kann ich dir
+              Wege zeigen wie du alle Aspekte des Musikmachens – das Gehör, die
+              Musiktheorie, die Improvisation etc. voran bringst Ich unterrichte
+              Privat in meinem Proberaum in Leipzig Großzschocher und an der
+              „Neue Musik Leipzig“.
             </p>
           </div>
-          <div class="project-events">
+          <!-- <div class="project-events">
             <h3>Events</h3>
             <p>date/place</p>
             <p>date/place</p>
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="project-right">
-        <div class="project-image"></div>
+        <div class="project-image">
+          <img src="../images/proberaum.jpeg" alt="" />
+        </div>
         <div class="project-links">
-          <span
+          <!-- <span
             class="iconify"
             data-inline="false"
             data-icon="akar-icons:spotify-fill"
@@ -57,19 +61,9 @@
             class="iconify"
             data-inline="false"
             data-icon="bi:youtube"
-          ></span>
+          ></span> -->
         </div>
       </div>
-      <!-- <div class="next-project">
-        <router-link class="link" to="/projects"
-          ><p>next project</p>
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="dashicons:arrow-right-alt2"
-          ></span
-        ></router-link>
-      </div> -->
     </div>
   </div>
 </template>
@@ -78,7 +72,7 @@
 import Nav from "@/components/Nav.vue";
 
 export default {
-  name: "ProjectSix",
+  name: "ProjectThree",
   components: {
     Nav,
   },
@@ -99,7 +93,6 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-right: 3rem;
 }
 
 .project-left {
@@ -107,7 +100,7 @@ export default {
   justify-content: center;
   align-items: center;
   min-width: 70%;
-  margin-right: 5rem;
+  margin-right: 3rem;
 }
 
 .project-right {
@@ -117,8 +110,8 @@ export default {
   align-items: center;
 }
 
-.project-image {
-  width: 200px;
+.project-image img {
+  width: auto;
   height: 200px;
   border: 1px solid;
   margin-bottom: 1rem;
@@ -136,7 +129,7 @@ export default {
   flex-wrap: nowrap;
   text-decoration: none;
   color: black;
-  margin-right: 3rem;
+  margin-left: 3rem;
 }
 
 .link p {
@@ -145,7 +138,7 @@ export default {
 }
 
 .link .iconify {
-  margin-right: 0.2rem;
+  margin-right: 3rem;
 }
 
 .link :hover {

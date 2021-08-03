@@ -26,8 +26,7 @@
         </div>
         <div class="project-events">
           <h3>upcoming shows</h3>
-          <p>date/place</p>
-          <p>date/place</p>
+          <p>30.07.2021 @Substanz, Leipzig</p>
         </div>
       </div>
       <div class="project-right">
