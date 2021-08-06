@@ -3,7 +3,7 @@
     <Nav />
     <div class="contact-main">
       <div class="contact-image">
-        <img src="../images/henrikcontact.png" alt="" />
+        <img class="mobile-image" src="../images/henrikcontact.png" alt="" />
       </div>
       <div class="contact-form">
         <form
@@ -12,7 +12,6 @@
           @submit.prevent="sendEmail"
           v-if="!successMessage"
         >
-          <p>get in touch</p>
           <input type="text" name="user_name" placeholder="name" />
 
           <input type="email" name="user_email" placeholder="email" />
@@ -131,5 +130,42 @@ input[type="submit"]:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .contact-main {
+    flex-direction: column;
+  }
+  .contact-image {
+    margin: 0;
+  }
+
+  .contact-image img {
+    height: 300px;
+  }
+
+  .contact-form {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile-image {
+    margin-top: 2rem;
+  }
+
+  .contact-image img {
+    height: 200px;
+  }
+
+  .contact-form {
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .mobile-image {
+    display: none;
+  }
 }
 </style>

@@ -118,10 +118,6 @@ img {
 }
 
 @media only screen and (max-width: 350px) {
-  img {
-    width: 100px;
-  }
-
   .about-content {
     flex-direction: column;
   }
