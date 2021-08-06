@@ -121,4 +121,44 @@ export default {
   grid-column: 3;
   grid-row: 1;
 }
+
+@media only screen and (max-width: 800px) {
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .two {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .three {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .four {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project {
+    width: 120px;
+    height: 120px;
+    margin: 0.4rem;
+    font-size: 10px;
+    border: 1px solid black;
+  }
+
+  .project img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+}
 </style>
