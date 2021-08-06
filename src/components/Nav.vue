@@ -141,4 +141,73 @@ export default {
   color: green;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 800px) {
+  .audio {
+    right: 10%;
+  }
+
+  .top {
+    top: 10%;
+  }
+
+  .left {
+    left: 10%;
+  }
+
+  .right {
+    right: 10%;
+  }
+
+  .bottom {
+    bottom: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .audio img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .audio {
+    right: 10%;
+  }
+
+  .top {
+    top: 25%;
+    margin-top: 0rem;
+  }
+
+  .left {
+    left: 2%;
+    margin-left: 0;
+  }
+
+  .right {
+    right: 2%;
+    margin-right: 0;
+  }
+
+  .bottom {
+    bottom: 25%;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  img {
+    height: 300px;
+  }
+
+  .top {
+    top: 15%;
+    margin-top: 0rem;
+  }
+
+  .bottom {
+    bottom: 15%;
+    margin-bottom: 0;
+  }
+}
 </style>

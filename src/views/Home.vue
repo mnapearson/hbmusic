@@ -30,4 +30,10 @@ export default {
 img {
   height: 600px;
 }
+
+@media only screen and (max-width: 600px) {
+  img {
+    height: 300px;
+  }
+}
 </style>
