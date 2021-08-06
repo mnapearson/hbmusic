@@ -25,7 +25,7 @@
       </div>
       <div class="about-carousel">
         <img src="../images/henrikslide1.png" alt="" />
-        <img src="../images/henrikslide2.png" alt="" />
+        <img class="mobile-hidden" src="../images/henrikslide2.png" alt="" />
       </div>
     </div>
   </div>
@@ -71,5 +71,70 @@ export default {
 img {
   width: 350px;
   margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-carousel {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  }
+
+  img {
+    width: 200px;
+    margin: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    width: 200px;
+    margin-bottom: 2rem;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-text {
+    font-size: 10px;
+    line-height: 18px;
+    margin: 0;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  img {
+    width: 100px;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-text {
+    font-size: 10px;
+    line-height: 15px;
+    width: 100%;
+    margin: 0;
+  }
+
+  img {
+    display: none;
+  }
 }
 </style>

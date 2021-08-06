@@ -201,12 +201,12 @@ export default {
   }
 
   .top {
-    top: 15%;
+    top: 5%;
     margin-top: 0rem;
   }
 
   .bottom {
-    bottom: 15%;
+    bottom: 5%;
     margin-bottom: 0;
   }
 }
