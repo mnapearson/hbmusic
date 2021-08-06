@@ -24,49 +24,52 @@
         </div>
       </div>
       <div class="project-right">
-        <div class="project-image">
-          <img src="../images/traumgaben.png" alt="" />
-        </div>
-        <div class="project-links">
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="akar-icons:spotify-fill"
-          ></span>
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="cib:apple-music"
-          ></span>
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="simple-icons:bandcamp"
-          ></span
-          ><a
-            href="https://soundcloud.com/traumgaben?fbclid=IwAR3UTIaZ5rpU9cto199dx9xAWlyddN5iBKidQKVlCWNPo57g3lFPNF2Uqp4"
-          >
+        <div class="project-right-main">
+          <div class="project-image">
+            <img src="../images/traumgaben.png" alt="" />
+          </div>
+          <div class="project-links">
             <span
               class="iconify"
               data-inline="false"
-              data-icon="ei:sc-soundcloud"
+              data-icon="akar-icons:spotify-fill"
+            ></span>
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="cib:apple-music"
+            ></span>
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="simple-icons:bandcamp"
             ></span
-          ></a>
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="bi:youtube"
-          ></span>
+            ><a
+              href="https://soundcloud.com/traumgaben?fbclid=IwAR3UTIaZ5rpU9cto199dx9xAWlyddN5iBKidQKVlCWNPo57g3lFPNF2Uqp4"
+            >
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="ei:sc-soundcloud"
+              ></span
+            ></a>
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="bi:youtube"
+            ></span>
+          </div>
         </div>
-      </div>
-      <div class="next-project">
-        <router-link class="link" to="/project-four">
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="dashicons:arrow-right-alt2"
-          ></span
-        ></router-link>
+        <div class="next-project">
+          <router-link class="link" to="/project-four">
+            <p class="next-text">next project</p>
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="dashicons:arrow-right-alt2"
+            ></span
+          ></router-link>
+        </div>
       </div>
     </div>
   </div>
@@ -84,12 +87,9 @@ export default {
 </script>
 
 <style scoped>
-* {
+.project-main {
   font-size: 12px;
   line-height: 18px;
-}
-
-.project-main {
   position: fixed;
   display: flex;
   justify-content: center;
@@ -97,27 +97,39 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-right: 3rem;
 }
 
 .project-left {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 70%;
-  margin-right: 5rem;
+  min-width: 60%;
+  margin-right: 3rem;
 }
 
 .project-right {
+  display: flex;
+  align-items: center;
+}
+
+.project-right-main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+.next-project {
+  display: flex;
+  align-items: center;
+}
+
+.project-right p {
+  display: none;
+}
 
 .project-image img {
   width: auto;
-  height: 300px;
+  height: 250px;
   border: 1px solid;
   margin-bottom: 1rem;
 }
@@ -127,11 +139,6 @@ export default {
   margin: 0.5rem;
 }
 
-a {
-  color: black;
-  text-decoration: none;
-}
-
 .link {
   display: flex;
   justify-content: center;
@@ -139,20 +146,75 @@ a {
   flex-wrap: nowrap;
   text-decoration: none;
   color: black;
-  margin-right: 3rem;
-}
-
-.link p {
-  margin: 0;
-  line-height: 10px;
+  margin-left: 3rem;
 }
 
 .link .iconify {
-  margin-right: 0.2rem;
+  margin-right: 3rem;
 }
 
 .link :hover {
   color: limegreen;
   text-decoration: bold;
+}
+
+a {
+  color: black;
+}
+
+@media only screen and (max-width: 800px) {
+  .project-image img {
+    width: auto;
+    height: 200px;
+    border: 1px solid;
+    margin-bottom: 0.3rem;
+  }
+
+  .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+  }
+
+  .project-right {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-right p {
+    display: block;
+  }
+
+  .last-project {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project-main {
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .project-left {
+    width: 140%;
+    margin-right: 0rem;
+    margin-bottom: 3rem;
+  }
+
+  .project-right {
+    margin-bottom: 5rem;
+  }
+
+  .project-image img {
+    height: 120px;
+  }
 }
 </style>

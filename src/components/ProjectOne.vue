@@ -30,47 +30,50 @@
         </div>
       </div>
       <div class="project-right">
-        <div class="project-image">
-          <img src="../images/extraviolette.jpg" alt="" />
-        </div>
-        <div class="project-links">
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="akar-icons:spotify-fill"
-          ></span>
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="cib:apple-music"
-          ></span>
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="simple-icons:bandcamp"
-          ></span>
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="ei:sc-soundcloud"
-          ></span>
-          <a href="https://www.youtube.com/watch?v=-okFMwPcBYA"
-            ><span
+        <div class="project-right-main">
+          <div class="project-image">
+            <img src="../images/extraviolette.jpg" alt="" />
+          </div>
+          <div class="project-links">
+            <span
               class="iconify"
               data-inline="false"
-              data-icon="bi:youtube"
-            ></span
-          ></a>
+              data-icon="akar-icons:spotify-fill"
+            ></span>
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="cib:apple-music"
+            ></span>
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="simple-icons:bandcamp"
+            ></span>
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="ei:sc-soundcloud"
+            ></span>
+            <a href="https://www.youtube.com/watch?v=-okFMwPcBYA"
+              ><span
+                class="iconify"
+                data-inline="false"
+                data-icon="bi:youtube"
+              ></span
+            ></a>
+          </div>
         </div>
-      </div>
-      <div class="next-project">
-        <router-link class="link" to="/project-two">
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="dashicons:arrow-right-alt2"
-          ></span
-        ></router-link>
+        <div class="next-project">
+          <router-link class="link" to="/project-two">
+            <p>next project</p>
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="dashicons:arrow-right-alt2"
+            ></span
+          ></router-link>
+        </div>
       </div>
     </div>
   </div>
@@ -88,11 +91,6 @@ export default {
 </script>
 
 <style scoped>
-* {
-  font-size: 12px;
-  line-height: 18px;
-}
-
 .project-main {
   position: fixed;
   display: flex;
@@ -101,7 +99,8 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-left: 3rem;
+  font-size: 12px;
+  line-height: 18px;
 }
 
 .project-left {
@@ -110,6 +109,20 @@ export default {
 }
 
 .project-right {
+  display: flex;
+  align-items: center;
+}
+
+.project-right p {
+  display: none;
+}
+
+.next-project {
+  display: flex;
+  align-items: center;
+}
+
+.project-right-main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -138,11 +151,6 @@ export default {
   margin-left: 2rem;
 }
 
-.link p {
-  margin: 0;
-  line-height: 10px;
-}
-
 .link .iconify {
   margin: 0;
 }
@@ -154,5 +162,54 @@ export default {
 
 a {
   color: black;
+}
+
+@media only screen and (max-width: 800px) {
+  .project-image img {
+    width: auto;
+    height: 150px;
+    border: 1px solid;
+    margin-bottom: 0.3rem;
+  }
+
+  .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+  }
+
+  .project-right {
+    flex-direction: column;
+  }
+
+  .project-right p {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project-main {
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .project-left {
+    width: 140%;
+    margin-right: 0rem;
+  }
+
+  .project-right {
+    margin-bottom: 5rem;
+  }
+
+  .project-image img {
+    height: 120px;
+  }
 }
 </style>

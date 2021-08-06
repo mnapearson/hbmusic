@@ -146,22 +146,6 @@ export default {
   .audio {
     right: 10%;
   }
-
-  .top {
-    top: 10%;
-  }
-
-  .left {
-    left: 10%;
-  }
-
-  .right {
-    right: 10%;
-  }
-
-  .bottom {
-    bottom: 10%;
-  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -201,12 +185,12 @@ export default {
   }
 
   .top {
-    top: 5%;
+    top: 3%;
     margin-top: 0rem;
   }
 
   .bottom {
-    bottom: 5%;
+    bottom: 2%;
     margin-bottom: 0;
   }
 }

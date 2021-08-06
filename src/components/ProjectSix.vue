@@ -33,11 +33,12 @@
         </div>
       </div>
       <div class="project-right">
-        <div class="project-image">
-          <img src="../images/proberaum.jpeg" alt="" />
-        </div>
-        <div class="project-links">
-          <!-- <span
+        <div class="project-right-main">
+          <div class="project-image">
+            <img src="../images/proberaum.jpeg" alt="" />
+          </div>
+          <div class="project-links">
+            <!-- <span
             class="iconify"
             data-inline="false"
             data-icon="akar-icons:spotify-fill"
@@ -62,6 +63,7 @@
             data-inline="false"
             data-icon="bi:youtube"
           ></span> -->
+          </div>
         </div>
       </div>
     </div>
@@ -80,12 +82,9 @@ export default {
 </script>
 
 <style scoped>
-* {
+.project-main {
   font-size: 12px;
   line-height: 18px;
-}
-
-.project-main {
   position: fixed;
   display: flex;
   justify-content: center;
@@ -99,20 +98,33 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 70%;
+  min-width: 60%;
   margin-right: 3rem;
 }
 
 .project-right {
   display: flex;
+  align-items: center;
+}
+
+.project-right-main {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+.next-project {
+  display: flex;
+  align-items: center;
+}
+
+.project-right p {
+  display: none;
+}
 
 .project-image img {
   width: auto;
-  height: 200px;
+  height: 250px;
   border: 1px solid;
   margin-bottom: 1rem;
 }
@@ -132,11 +144,6 @@ export default {
   margin-left: 3rem;
 }
 
-.link p {
-  margin: 0;
-  line-height: 10px;
-}
-
 .link .iconify {
   margin-right: 3rem;
 }
@@ -144,5 +151,73 @@ export default {
 .link :hover {
   color: limegreen;
   text-decoration: bold;
+}
+
+a {
+  color: black;
+}
+
+@media only screen and (max-width: 800px) {
+  .project-main {
+    flex-direction: column;
+  }
+
+  .project-left {
+    margin: 0;
+  }
+
+  .project-image img {
+    width: auto;
+    height: 150px;
+    border: 1px solid;
+    margin-bottom: 0.3rem;
+  }
+
+  .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+  }
+
+  .project-right {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-right p {
+    display: block;
+  }
+
+  .last-project {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project-main {
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .project-left {
+    width: 100%;
+    margin-right: 0rem;
+  }
+
+  .project-right {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+
+  .project-image img {
+    height: 120px;
+  }
 }
 </style>
