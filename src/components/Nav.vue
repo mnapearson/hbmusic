@@ -1,16 +1,6 @@
 <template>
   <div class="nav-main">
     <nav>
-      <div class="audio" @click="changeOn" :class="isOff ? 'isOff' : 'isOn'">
-        <img src="../assets/soundbutton.svg" alt="" />
-      </div>
-      <audio
-        preload="auto"
-        loop
-        id="audio"
-        :src="require('../assets/leo.wav')"
-      ></audio>
-
       <div class="top">
         <router-link class="link" to="/">Henrik Baumgarten</router-link>
       </div>
@@ -30,56 +20,10 @@
 <script>
 export default {
   name: "Nav",
-  data() {
-    return {
-      isOff: true,
-    };
-  },
-  methods: {
-    changeOn() {
-      let oAudio = document.querySelector("#audio");
-      if (this.isOff) {
-        oAudio.play(); //Let the audio file start playing
-      } else {
-        oAudio.pause(); //Make the audio file pause
-      }
-      this.isOff = !this.isOff;
-    },
-    audioAutoPlay() {
-      let audio = document.getElementById("audio");
-      this.isOff = false;
-      audio.play();
-      document.removeEventListener("touchstart", this.audioAutoPlay);
-    },
-  },
-  // mounted() {
-  //   this.audioAutoPlay("audio");
-  //   // Automatically play music effects, solve the WeChat automatic playback problem
-  //   document.addEventListener("touchstart", this.audioAutoPlay, false);
-  //   document.addEventListener("WeixinJSBridgeReady", this.audioAutoPlay, false);
-  //   let oAudio = document.querySelector("#audio");
-  //   oAudio.onended = function () {
-  //     //play is finished, replay loop
-  //     oAudio.load();
-  //     oAudio.play();
-  //   };
-  // },
 };
 </script>
 
 <style scoped>
-.audio img {
-  width: 20px;
-  height: 20px;
-}
-
-.audio {
-  position: fixed;
-  right: 0;
-  top: 0;
-  margin: 1rem;
-}
-
 .link {
   text-decoration: none;
   text-transform: uppercase;
