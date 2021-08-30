@@ -26,7 +26,7 @@
         </div>
         <div class="project-events">
           <h3>upcoming shows</h3>
-          <p>Felsenkeller 01.09 @8pm</p>
+          <p>tbd</p>
         </div>
       </div>
       <div class="project-right">
