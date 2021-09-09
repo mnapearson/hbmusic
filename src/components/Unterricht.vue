@@ -4,7 +4,7 @@
     <div class="project-main">
       <div class="project-left">
         <div class="last-project">
-          <router-link class="link" to="/project-five">
+          <router-link class="link" to="/BrigadeFutur3">
             <span
               class="iconify"
               data-inline="false"
@@ -24,6 +24,7 @@
               Privat in meinem Proberaum in Leipzig Großzschocher und an der
               „Neue Musik Leipzig“.
             </p>
+            <router-link to="/contact"><p>set up a lesson</p></router-link>
           </div>
           <!-- <div class="project-events">
             <h3>Events</h3>
@@ -74,7 +75,7 @@
 import Nav from "@/components/Nav.vue";
 
 export default {
-  name: "ProjectThree",
+  name: "Unterricht",
   components: {
     Nav,
   },

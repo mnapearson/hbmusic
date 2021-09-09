@@ -4,7 +4,7 @@
     <div class="project-main">
       <div class="project-left">
         <div class="last-project">
-          <router-link class="link" to="/project-four">
+          <router-link class="link" to="/Traumgaben">
             <span
               class="iconify"
               data-inline="false"
@@ -14,73 +14,58 @@
         </div>
         <div class="project-description">
           <div class="project-title">
-            <h3>Brigade Futur 3</h3>
-            <p>
-              Die Antikapitalistische Kampfband.! Eine Kooperation Aus Berlin
-              und Leipzig. Schaut mal rein und kauft weniger!
-            </p>
+            <h3>Ameba</h3>
+            <p>Live Hip Hop Jazz Fusion</p>
           </div>
           <div class="project-events">
-            <h3>upcoming shows</h3>
-            <p>tbd</p>
+            <h3>upcoming events</h3>
+            <p>06.08.2021 @Casa Pepe, Leipzig</p>
           </div>
         </div>
       </div>
       <div class="project-right">
         <div class="project-right-main">
           <div class="project-image">
-            <img src="../images/brigadefutur3.png" alt="" />
+            <img src="../images/ameba.jpg" alt="" />
           </div>
           <div class="project-links">
-            <a href="https://open.spotify.com/album/0ePxWyTIpepcISBETJUizq">
-              <span
-                class="iconify"
-                data-inline="false"
-                data-icon="akar-icons:spotify-fill"
-              ></span></a
-            ><a
-              href="https://music.apple.com/de/album/alles-wird-gut-gegangen-sein-werden/1306726253?app=music"
-            >
-              <span
-                class="iconify"
-                data-inline="false"
-                data-icon="cib:apple-music"
-              ></span></a
-            ><a
-              href="https://whyplayjazz.bandcamp.com/album/alles-wird-gut-gegangen-sein-werden"
-            >
-              <span
-                class="iconify"
-                data-inline="false"
-                data-icon="simple-icons:bandcamp"
-              ></span></a
-            ><a
-              href="https://soundcloud.com/whyplayjazz/brigade-futur-iii-alles-wird-gut-gegangen-sein-werden-album-teaser"
-            >
-              <span
-                class="iconify"
-                data-inline="false"
-                data-icon="ei:sc-soundcloud"
-              ></span></a
-            ><a href="https://www.youtube.com/watch?v=sboblPq5Mfo&t=2s">
-              <span
-                class="iconify"
-                data-inline="false"
-                data-icon="bi:youtube"
-              ></span
-            ></a>
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="akar-icons:spotify-fill"
+            ></span>
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="cib:apple-music"
+            ></span>
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="simple-icons:bandcamp"
+            ></span>
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="ei:sc-soundcloud"
+            ></span>
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="bi:youtube"
+            ></span>
           </div>
         </div>
-      </div>
-      <div class="next-project">
-        <router-link class="link" to="/project-six">
-          <p>next project</p>
-          <span
-            class="iconify"
-            data-inline="false"
-            data-icon="dashicons:arrow-right-alt2"
-          ></span
-        ></router-link>
+        <div class="next-project">
+          <router-link class="link" to="/BrigadeFutur3">
+            <p>next project</p>
+            <span
+              class="iconify"
+              data-inline="false"
+              data-icon="dashicons:arrow-right-alt2"
+            ></span
+          ></router-link>
+        </div>
       </div>
     </div>
   </div>
@@ -90,7 +75,7 @@
 import Nav from "@/components/Nav.vue";
 
 export default {
-  name: "ProjectFive",
+  name: "Ameba",
   components: {
     Nav,
   },
@@ -217,6 +202,7 @@ a {
   .project-left {
     width: 140%;
     margin-right: 0rem;
+    margin-bottom: 3rem;
   }
 
   .project-right {

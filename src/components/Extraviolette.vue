@@ -3,30 +3,36 @@
     <Nav />
     <div class="project-main">
       <div class="project-left">
-        <div class="last-project">
-          <router-link class="link" to="/project-two">
-            <span
-              class="iconify"
-              data-inline="false"
-              data-icon="dashicons:arrow-left-alt2"
-            ></span>
-          </router-link>
-        </div>
         <div class="project-description">
-          <div class="project-title">
-            <h3>Traumgaben</h3>
-            <p>My own Jazz.</p>
-          </div>
-          <div class="project-events">
-            <h3>upcoming shows</h3>
-            <p>tbd</p>
-          </div>
+          <h3>extraviolette</h3>
+          <p>
+            Die Floral Geräucherte extra heiße Band, die selbst den Papst zum
+            tanzen kriegt ist ready . Extraviolette steht für Disco, Liebe,
+            Vielfalt, Loslassen, Befreiung und die Nacht durch-tanzen.
+            Extraviolette ist die Farbe der Emanzipation – Emanzipation aller
+            Geschlechter und Gedanken, die Farbe der Verwandlung, der
+            Inspiration und der Individualität. Sie will euch auf eine Auszeit
+            für eure Sorgen mitnehmen und macht einen „extra“ Workout für euer
+            inneres Licht und eure Füße. Inspiriert von dem Geist und der
+            Energie der Discoera der 1970er Jahre, bringen sie eine mitreißende
+            Show auf die Bühne, in der man sich gerne verliert.
+          </p>
+          <p>
+            Die 9 Musiker*innen aus Leipzig sind im dritten Jahr ihres Bestehens
+            zu einer schlagfertigen Truppe zusammengewachsen, mit dem Ziel ihren
+            Sound und ihre Liebe zu Disco, Funk und Soul auf die Tanzflächen
+            dieser Welt zu bringen. Die Party ist da wo sie sind! Stay tuned!
+          </p>
+        </div>
+        <div class="project-events">
+          <h3>upcoming events</h3>
+          <p>tbd</p>
         </div>
       </div>
       <div class="project-right">
         <div class="project-right-main">
           <div class="project-image">
-            <img src="../images/traumgaben.png" alt="" />
+            <img src="../images/extraviolette.jpg" alt="" />
           </div>
           <div class="project-links">
             <span
@@ -43,26 +49,24 @@
               class="iconify"
               data-inline="false"
               data-icon="simple-icons:bandcamp"
-            ></span
-            ><a
-              href="https://soundcloud.com/traumgaben?fbclid=IwAR3UTIaZ5rpU9cto199dx9xAWlyddN5iBKidQKVlCWNPo57g3lFPNF2Uqp4"
-            >
-              <span
-                class="iconify"
-                data-inline="false"
-                data-icon="ei:sc-soundcloud"
-              ></span
-            ></a>
+            ></span>
             <span
               class="iconify"
               data-inline="false"
-              data-icon="bi:youtube"
+              data-icon="ei:sc-soundcloud"
             ></span>
+            <a href="https://www.youtube.com/watch?v=-okFMwPcBYA"
+              ><span
+                class="iconify"
+                data-inline="false"
+                data-icon="bi:youtube"
+              ></span
+            ></a>
           </div>
         </div>
         <div class="next-project">
-          <router-link class="link" to="/project-four">
-            <p class="next-text">next project</p>
+          <router-link class="link" to="/Oluma">
+            <p>next project</p>
             <span
               class="iconify"
               data-inline="false"
@@ -79,7 +83,7 @@
 import Nav from "@/components/Nav.vue";
 
 export default {
-  name: "ProjectSix",
+  name: "Extraviolette",
   components: {
     Nav,
   },
@@ -88,8 +92,6 @@ export default {
 
 <style scoped>
 .project-main {
-  font-size: 12px;
-  line-height: 18px;
   position: fixed;
   display: flex;
   justify-content: center;
@@ -97,17 +99,25 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 12px;
+  line-height: 18px;
 }
 
 .project-left {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-width: 60%;
-  margin-right: 3rem;
+  margin-right: 4rem;
 }
 
 .project-right {
+  display: flex;
+  align-items: center;
+}
+
+.project-right p {
+  display: none;
+}
+
+.next-project {
   display: flex;
   align-items: center;
 }
@@ -117,14 +127,6 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.next-project {
-  display: flex;
-  align-items: center;
-}
-
-.project-right p {
-  display: none;
 }
 
 .project-image img {
@@ -146,11 +148,11 @@ export default {
   flex-wrap: nowrap;
   text-decoration: none;
   color: black;
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 .link .iconify {
-  margin-right: 3rem;
+  margin: 0;
 }
 
 .link :hover {
@@ -165,7 +167,7 @@ a {
 @media only screen and (max-width: 800px) {
   .project-image img {
     width: auto;
-    height: 200px;
+    height: 150px;
     border: 1px solid;
     margin-bottom: 0.3rem;
   }
@@ -181,16 +183,10 @@ a {
 
   .project-right {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .project-right p {
     display: block;
-  }
-
-  .last-project {
-    display: none;
   }
 }
 
@@ -206,7 +202,6 @@ a {
   .project-left {
     width: 140%;
     margin-right: 0rem;
-    margin-bottom: 3rem;
   }
 
   .project-right {

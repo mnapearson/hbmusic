@@ -94,7 +94,6 @@ export default {
 .contact-form {
   text-align: center;
   font-size: 12px;
-  line-height: 22px;
   min-width: 70%;
 }
 
@@ -110,6 +109,10 @@ textarea {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
+}
+
+textarea {
+  height: 150px;
 }
 
 input[type="submit"] {

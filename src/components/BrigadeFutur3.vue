@@ -4,7 +4,7 @@
     <div class="project-main">
       <div class="project-left">
         <div class="last-project">
-          <router-link class="link" to="/project-one">
+          <router-link class="link" to="/Ameba">
             <span
               class="iconify"
               data-inline="false"
@@ -14,61 +14,56 @@
         </div>
         <div class="project-description">
           <div class="project-title">
-            <h3>oluma</h3>
+            <h3>Brigade Futur 3</h3>
             <p>
-              OLUMA besteht aus neun jungen Musiker*innen, die ihre Leidenschaft
-              für Musik teilen, die vom Afrobeat der späten 60er und der 70er
-              Jahre inspiriert wurde.Gegründet vom Bassisten Gregor Nicolai,
-              Drummer André van der Heide und Saxophonist Roman Polatzky, hat
-              sich der Rest der Band während des Musikstudiums gefunden.Ihr
-              Sound ist vor allem von West-Afrikanischer und Brasilianischer
-              Musik, sowie Funk und Jazz beeinflusst.
-            </p>
-            <p>
-              Erstmals veröffentlicht hat die Band ihre Musik in einer
-              Live-Session aus dem NEUES SCHAUSPIEL Leipzig. Die drei dabei
-              entstanden Videos gibt es auf ihrem Youtube-Kanal - Schaut gerne
-              vorbei und lasst ein Abo da.
+              Die Antikapitalistische Kampfband.! Eine Kooperation Aus Berlin
+              und Leipzig. Schaut mal rein und kauft weniger!
             </p>
           </div>
           <div class="project-events">
-            <h3>upcoming shows</h3>
-            <p>14.08.2021 @Roots & Sprouts Festival- Leipzig</p>
-            <p>
-              03.09.2021 @Musikfestival Künstlerhaus- Colditz Colditz/Leipzig
-            </p>
-            <p>29.10.2021 @Horns Erben- Arndtstraße 33, 04275 Leipzig</p>
+            <h3>upcoming events</h3>
+            <p>tbd</p>
           </div>
         </div>
       </div>
       <div class="project-right">
         <div class="project-right-main">
           <div class="project-image">
-            <img src="../images/Oluma.jpg" alt="" />
+            <img src="../images/brigadefutur3.png" alt="" />
           </div>
           <div class="project-links">
-            <span
-              class="iconify"
-              data-inline="false"
-              data-icon="akar-icons:spotify-fill"
-            ></span>
-            <span
-              class="iconify"
-              data-inline="false"
-              data-icon="cib:apple-music"
-            ></span>
-            <span
-              class="iconify"
-              data-inline="false"
-              data-icon="simple-icons:bandcamp"
-            ></span>
-            <span
-              class="iconify"
-              data-inline="false"
-              data-icon="ei:sc-soundcloud"
-            ></span>
-            <a href="https://www.youtube.com/channel/UCiuIOZLXOO0DTyKJrccaM1Q"
-              ><span
+            <a href="https://open.spotify.com/album/0ePxWyTIpepcISBETJUizq">
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="akar-icons:spotify-fill"
+              ></span></a
+            ><a
+              href="https://music.apple.com/de/album/alles-wird-gut-gegangen-sein-werden/1306726253?app=music"
+            >
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="cib:apple-music"
+              ></span></a
+            ><a
+              href="https://whyplayjazz.bandcamp.com/album/alles-wird-gut-gegangen-sein-werden"
+            >
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="simple-icons:bandcamp"
+              ></span></a
+            ><a
+              href="https://soundcloud.com/whyplayjazz/brigade-futur-iii-alles-wird-gut-gegangen-sein-werden-album-teaser"
+            >
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="ei:sc-soundcloud"
+              ></span></a
+            ><a href="https://www.youtube.com/watch?v=sboblPq5Mfo&t=2s">
+              <span
                 class="iconify"
                 data-inline="false"
                 data-icon="bi:youtube"
@@ -76,16 +71,15 @@
             ></a>
           </div>
         </div>
-        <div class="next-project">
-          <router-link class="link" to="/project-three">
-            <p>next project</p>
-            <span
-              class="iconify"
-              data-inline="false"
-              data-icon="dashicons:arrow-right-alt2"
-            ></span
-          ></router-link>
-        </div>
+      </div>
+      <div class="next-project">
+        <router-link class="link" to="/Unterricht">
+          <span
+            class="iconify"
+            data-inline="false"
+            data-icon="dashicons:arrow-right-alt2"
+          ></span
+        ></router-link>
       </div>
     </div>
   </div>
@@ -95,7 +89,7 @@
 import Nav from "@/components/Nav.vue";
 
 export default {
-  name: "ProjectTwo",
+  name: "BrigadeFutur3",
   components: {
     Nav,
   },

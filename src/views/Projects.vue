@@ -3,7 +3,7 @@
     <Nav />
     <div class="projects-grid">
       <div class="project one">
-        <router-link class="link" to="/project-one">
+        <router-link class="link" to="/Extraviolette">
           <div class="container">
             <div class="centered">extraviolette</div>
             <img src="../images/extraviolette.jpg" alt="" />
@@ -11,35 +11,35 @@
         </router-link>
       </div>
       <div class="project two">
-        <router-link class="link" to="/project-two">
+        <router-link class="link" to="/Oluma">
           <div class="container">
             <div class="centered">oluma</div>
             <img src="../images/Oluma.jpg" alt="" /></div
         ></router-link>
       </div>
       <div class="project three">
-        <router-link class="link" to="/project-three">
+        <router-link class="link" to="/Traumgaben">
           <div class="container">
             <div class="centered">traumgaben</div>
             <img src="../images/traumgaben.png" alt="" /></div
         ></router-link>
       </div>
       <div class="project four">
-        <router-link class="link" to="/project-four">
+        <router-link class="link" to="/Ameba">
           <div class="container">
             <div class="centered">ameba</div>
             <img src="../images/ameba.jpg" alt="" /></div
         ></router-link>
       </div>
       <div class="project five">
-        <router-link class="link" to="/project-five">
+        <router-link class="link" to="/BrigadeFutur3">
           <div class="container">
             <div class="centered">brigade futur 3</div>
             <img src="../images/brigadefutur3.png" alt="" /></div
         ></router-link>
       </div>
       <div class="project six">
-        <router-link class="link" to="/project-six">
+        <router-link class="link" to="/Unterricht">
           <div class="container">
             <div class="centered">saxophon unterricht</div>
             <img src="../images/teacher.jpg" alt="" /></div

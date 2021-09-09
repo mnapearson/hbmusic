@@ -5,13 +5,15 @@
         <router-link class="link" to="/">Henrik Baumgarten</router-link>
       </div>
       <div class="left">
-        <router-link class="link" to="/about">About</router-link>
+        <router-link class="link one" to="/about">About</router-link>
+        <router-link class="link two" to="/blog">Blog</router-link>
       </div>
       <div class="bottom">
         <router-link class="link" to="/contact">Contact</router-link>
       </div>
       <div class="right">
-        <router-link class="link" to="/projects">Projects</router-link>
+        <router-link class="link one" to="/projects">Projects</router-link>
+        <router-link class="link two" to="/events">Events</router-link>
       </div>
     </nav>
   </div>
@@ -49,8 +51,16 @@ export default {
   display: flex;
   left: 0;
   top: 50%;
-  margin-left: 1rem;
+
   transform: rotate(-90deg);
+}
+
+.left .link {
+  margin-left: 1rem;
+}
+
+.right .link {
+  margin-right: 1rem;
 }
 
 .left .link:hover,
@@ -58,6 +68,11 @@ export default {
   color: orange;
   font-weight: bold;
 }
+
+.left .two:hover {
+  color: darkgray;
+}
+
 .bottom {
   position: fixed;
   display: flex;
@@ -77,13 +92,25 @@ export default {
   display: flex;
   right: 0;
   top: 50%;
-  margin-right: 1rem;
   transform: rotate(90deg);
 }
-.right .link:hover,
+.right .one:hover {
+  color: green;
+  font-weight: bold;
+}
+
 .right .router-link-active {
   color: green;
   font-weight: bold;
+}
+
+.right .two:hover {
+  color: blue;
+  font-weight: bold;
+}
+
+.right .router-link-exact-active {
+  color: blue;
 }
 
 @media only screen and (max-width: 800px) {
