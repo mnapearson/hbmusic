@@ -1,6 +1,7 @@
 <template>
   <div class="nav-main">
     <nav>
+      <cookie-law theme="base"></cookie-law>
       <div class="top">
         <router-link class="link" to="/">Henrik Baumgarten</router-link>
       </div>
@@ -20,7 +21,10 @@
 </template>
 
 <script>
+import CookieLaw from "vue-cookie-law";
+
 export default {
+  components: { CookieLaw },
   name: "Nav",
 };
 </script>
