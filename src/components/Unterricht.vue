@@ -1,17 +1,9 @@
 <template>
   <div class="project-details">
     <Nav />
+
     <div class="project-main">
       <div class="project-left">
-        <div class="last-project">
-          <router-link class="link" to="/BrigadeFutur3">
-            <span
-              class="iconify"
-              data-inline="false"
-              data-icon="dashicons:arrow-left-alt2"
-            ></span>
-          </router-link>
-        </div>
         <div class="project-description">
           <div class="project-title">
             <h3>saxophon unterricht</h3>
@@ -67,6 +59,15 @@
           </div>
         </div>
       </div>
+      <div class="last-project">
+        <router-link class="link" to="/BrigadeFutur3">
+          <span
+            class="iconify"
+            data-inline="false"
+            data-icon="dashicons:arrow-left-alt2"
+          ></span>
+        </router-link>
+      </div>
     </div>
   </div>
 </template>
@@ -88,6 +89,7 @@ export default {
   line-height: 18px;
   position: fixed;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   top: 50%;

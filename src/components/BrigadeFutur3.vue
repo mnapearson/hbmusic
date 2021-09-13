@@ -29,7 +29,13 @@
       <div class="project-right">
         <div class="project-right-main">
           <div class="project-image">
-            <img src="../images/brigadefutur3.png" alt="" />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.brigadefutur3.org/"
+            >
+              <img src="../images/brigadefutur3.png" alt="" />
+            </a>
           </div>
           <div class="project-links">
             <a href="https://open.spotify.com/album/0ePxWyTIpepcISBETJUizq">

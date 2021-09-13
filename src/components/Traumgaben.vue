@@ -29,12 +29,18 @@
             <img src="../images/traumgaben.png" alt="" />
           </div>
           <div class="project-links">
-            <span
-              class="iconify"
-              data-inline="false"
-              data-icon="bi:facebook"
-            ></span>
-            <span
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.facebook.com/Henrik-Baumgarten-110659694029978"
+            >
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="bi:facebook"
+              ></span
+            ></a>
+            <!-- <span
               class="iconify"
               data-inline="false"
               data-icon="cib:apple-music"
@@ -43,8 +49,8 @@
               class="iconify"
               data-inline="false"
               data-icon="simple-icons:bandcamp"
-            ></span
-            ><a
+            ></span >-->
+            <a
               href="https://soundcloud.com/traumgaben?fbclid=IwAR3UTIaZ5rpU9cto199dx9xAWlyddN5iBKidQKVlCWNPo57g3lFPNF2Uqp4"
             >
               <span
@@ -53,11 +59,17 @@
                 data-icon="ei:sc-soundcloud"
               ></span
             ></a>
-            <span
-              class="iconify"
-              data-inline="false"
-              data-icon="bi:youtube"
-            ></span>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.instagram.com/traumgaben/"
+            >
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="bi:instagram"
+              ></span
+            ></a>
           </div>
         </div>
         <div class="next-project">

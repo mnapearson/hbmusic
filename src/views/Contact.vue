@@ -1,28 +1,45 @@
 <template>
-  <div class="contact">
-    <Nav />
-    <div class="contact-main">
-      <div class="contact-image">
-        <img class="mobile-image" src="../images/henrikcontact.png" alt="" />
-      </div>
-      <div class="contact-form">
-        <form
-          ref="contact"
-          class="contact-form"
-          @submit.prevent="sendEmail"
-          v-if="!successMessage"
-        >
-          <input type="text" name="user_name" placeholder="name" />
+  <div>
+    <div class="contact">
+      <Nav />
+      <div class="contact-main">
+        <div class="contact-image">
+          <div class="image">
+            <img
+              class="mobile-image"
+              src="../images/henrikcontact.png"
+              alt=""
+            />
+            <router-link
+              class="link"
+              to="/privacy"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p>privacy policy</p></router-link
+            >
+          </div>
+        </div>
 
-          <input type="email" name="user_email" placeholder="email" />
+        <div class="contact-form">
+          <form
+            ref="contact"
+            class="contact-form"
+            @submit.prevent="sendEmail"
+            v-if="!successMessage"
+          >
+            <input type="text" name="user_name" placeholder="name" />
 
-          <textarea name="message" placeholder="message"></textarea>
-          <input type="submit" value="Send" />
-        </form>
-        <p v-if="successMessage">
-          Thank you for your message. <br />You will receive a reply as soon as
-          possible.
-        </p>
+            <input type="email" name="user_email" placeholder="email" />
+
+            <textarea name="message" placeholder="message"></textarea>
+            <input type="submit" value="Send" />
+          </form>
+          <p v-if="successMessage">
+            Thank you for your message. <br />You will receive a reply as soon
+            as possible.
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -97,6 +114,17 @@ export default {
   min-width: 70%;
 }
 
+.link {
+  font-size: 10px;
+  text-transform: lowercase;
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
 label {
   float: left;
 }
@@ -105,10 +133,11 @@ input[type="text"],
 [type="email"],
 textarea {
   width: 100%;
-  padding: 12px;
-  box-sizing: border-box;
+  padding: 10px;
   margin-top: 6px;
   margin-bottom: 16px;
+  border: 1px solid black;
+  border-radius: 4px;
 }
 
 textarea {
@@ -116,7 +145,7 @@ textarea {
 }
 
 input[type="submit"] {
-  padding: 12px 20px;
+  padding: 10px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;

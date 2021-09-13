@@ -44,10 +44,16 @@
       <div class="project-right">
         <div class="project-right-main">
           <div class="project-image">
-            <img src="../images/Oluma.jpg" alt="" />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://oluma.de/"
+            >
+              <img src="../images/Oluma.jpg" alt=""
+            /></a>
           </div>
           <div class="project-links">
-            <span
+            <!-- <span
               class="iconify"
               data-inline="false"
               data-icon="akar-icons:spotify-fill"
@@ -56,18 +62,33 @@
               class="iconify"
               data-inline="false"
               data-icon="cib:apple-music"
-            ></span>
-            <span
-              class="iconify"
-              data-inline="false"
-              data-icon="simple-icons:bandcamp"
-            ></span>
-            <span
-              class="iconify"
-              data-inline="false"
-              data-icon="ei:sc-soundcloud"
-            ></span>
-            <a href="https://www.youtube.com/channel/UCiuIOZLXOO0DTyKJrccaM1Q"
+            ></span>-->
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.facebook.com/oluma.music/"
+            >
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="bi:facebook"
+              ></span
+            ></a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.instagram.com/oluma.music/"
+            >
+              <span
+                class="iconify"
+                data-inline="false"
+                data-icon="bi:instagram"
+              ></span
+            ></a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.youtube.com/channel/UCiuIOZLXOO0DTyKJrccaM1Q"
               ><span
                 class="iconify"
                 data-inline="false"

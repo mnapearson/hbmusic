@@ -9,9 +9,14 @@
           Whigham., 2006 steht er seit 2007 mit den verschiedensten Formationen
           auf der Bühne. Es folgten während seines Saxophonstudiums 2010 - 2015
           die projekte
-          <a href="https://www.youtube.com/watch?v=iP3sJYubXPk"> T.O.Y.</a>,
-          Engagements im Leipziger Central Theater und regelmäßige Auftritte in
-          der leipziger Jazzszene.
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.youtube.com/watch?v=iP3sJYubXPk"
+          >
+            T.O.Y.</a
+          >, Engagements im Leipziger Central Theater und regelmäßige Auftritte
+          in der leipziger Jazzszene.
         </p>
         <p>
           In dieser Zeit erlernte er auch autodidaktisch Klarinette und

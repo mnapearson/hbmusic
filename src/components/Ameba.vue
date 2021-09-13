@@ -29,7 +29,7 @@
             <img src="../images/ameba.jpg" alt="" />
           </div>
           <div class="project-links">
-            <span
+            <!-- <span
               class="iconify"
               data-inline="false"
               data-icon="akar-icons:spotify-fill"
@@ -53,7 +53,7 @@
               class="iconify"
               data-inline="false"
               data-icon="bi:youtube"
-            ></span>
+            ></span> -->
           </div>
         </div>
         <div class="next-project">

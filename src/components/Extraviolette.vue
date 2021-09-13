@@ -32,10 +32,16 @@
       <div class="project-right">
         <div class="project-right-main">
           <div class="project-image">
-            <img src="../images/extraviolette.jpg" alt="" />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://extraviolette.de/"
+            >
+              <img src="../images/extraviolette.jpg" alt=""
+            /></a>
           </div>
           <div class="project-links">
-            <span
+            <!-- <span
               class="iconify"
               data-inline="false"
               data-icon="akar-icons:spotify-fill"
@@ -44,18 +50,31 @@
               class="iconify"
               data-inline="false"
               data-icon="cib:apple-music"
-            ></span>
+            ></span>-->
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.facebook.com/Extraviolette/"
+            ></a>
             <span
               class="iconify"
               data-inline="false"
-              data-icon="simple-icons:bandcamp"
+              data-icon="bi:facebook"
             ></span>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.instagram.com/extra.violette/"
+            ></a>
             <span
               class="iconify"
               data-inline="false"
-              data-icon="ei:sc-soundcloud"
+              data-icon="bi:instagram"
             ></span>
-            <a href="https://www.youtube.com/watch?v=-okFMwPcBYA"
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.youtube.com/watch?v=-okFMwPcBYA"
               ><span
                 class="iconify"
                 data-inline="false"
