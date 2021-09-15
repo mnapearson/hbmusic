@@ -4,23 +4,24 @@
     <div class="events">
       <h3>upcoming events</h3>
       <div class="events-grid">
-        <div class="date">
+        <div class="event">
           <p>09.09.21</p>
-          <p>10.09.21</p>
-        </div>
-        <div class="time">
           <p>12h - 17h</p>
-          <p>19h-21h</p>
-        </div>
-        <div class="project">
-          <router-link class="link" to="/project-three"
+          <router-link class="link" to="/traumgaben"
             ><p>Traumgaben</p></router-link
           >
-          <p>Reso:Kollektiv</p>
-        </div>
-        <div class="location">
           <p>@Pittlerwerke</p>
-          <p>@Gewandhaus</p>
+          <div class="event">
+            <p>10.09.21</p>
+            <p>19h-21h</p>
+            <p>Reso:Kollektiv</p>
+            <p>@Gewandhaus</p>
+          </div>
+          <div class="event">
+            <p>29.10.21</p>
+            <router-link class="link" to="/oluma"><p>Oluma</p></router-link>
+            <p>@Horns Erben</p>
+          </div>
         </div>
       </div>
     </div>
@@ -45,6 +46,16 @@ h3 {
 
 p {
   font-size: 12px;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
 
 .events {
@@ -54,33 +65,16 @@ p {
   transform: translate(-50%, -50%);
 }
 
-.events-grid {
-  display: grid;
-  grid-auto-columns: 1fr 1fr 1fr 1fr;
+.event {
+  margin-top: 1rem;
 }
 
-.events-grid p {
-  margin: 1rem;
+@media only screen and (max-width: 800px) {
 }
 
-.link {
-  text-decoration: none;
-  color: black;
+@media only screen and (max-width: 600px) {
 }
 
-.date {
-  grid-column: 1;
-}
-
-.time {
-  grid-column: 2;
-}
-
-.project {
-  grid-column: 3;
-}
-
-.location {
-  grid-column: 4;
+@media only screen and (max-width: 360px) {
 }
 </style>

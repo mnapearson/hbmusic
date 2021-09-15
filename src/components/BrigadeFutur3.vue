@@ -192,9 +192,11 @@ a {
     align-items: center;
     text-decoration: none;
     color: black;
-    margin: 1rem;
   }
 
+  .next-project {
+    margin-bottom: 3rem;
+  }
   .project-right {
     flex-direction: column;
     justify-content: center;

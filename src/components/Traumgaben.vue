@@ -74,7 +74,6 @@
         </div>
         <div class="next-project">
           <router-link class="link" to="/Ameba">
-            <p class="next-text">next project</p>
             <span
               class="iconify"
               data-inline="false"
@@ -133,6 +132,7 @@ export default {
 .next-project {
   display: flex;
   align-items: center;
+  margin: 0;
 }
 
 .project-right p {
@@ -188,7 +188,6 @@ a {
     align-items: center;
     text-decoration: none;
     color: black;
-    margin: 1rem;
   }
 
   .project-right {

@@ -58,7 +58,6 @@
         </div>
         <div class="next-project">
           <router-link class="link" to="/BrigadeFutur3">
-            <p>next project</p>
             <span
               class="iconify"
               data-inline="false"
@@ -172,7 +171,6 @@ a {
     align-items: center;
     text-decoration: none;
     color: black;
-    margin: 1rem;
   }
 
   .project-right {

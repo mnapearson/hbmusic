@@ -46,6 +46,7 @@
         ></router-link>
       </div>
     </div>
+    <router-link class="events-link" to="/events">Upcoming events</router-link>
   </div>
 </template>
 
@@ -100,6 +101,22 @@ export default {
 .link {
   text-decoration: none;
   color: black;
+}
+
+.events-link {
+  position: fixed;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: underline;
+  text-transform: lowercase;
+  color: black;
+  font-size: 12px;
+}
+
+.events-link:hover {
+  color: green;
+  font-weight: bold;
 }
 
 .link :hover {

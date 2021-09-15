@@ -85,7 +85,7 @@
         </div>
         <div class="next-project">
           <router-link class="link" to="/Oluma">
-            <p>next project</p>
+           
             <span
               class="iconify"
               data-inline="false"

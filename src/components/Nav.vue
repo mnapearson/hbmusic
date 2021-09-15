@@ -7,14 +7,13 @@
       </div>
       <div class="left">
         <router-link class="link one" to="/about">About</router-link>
-        <router-link class="link two" to="/blog">Blog</router-link>
+        <!-- <router-link class="link two" to="/blog">Blog</router-link> -->
       </div>
       <div class="bottom">
         <router-link class="link" to="/contact">Contact</router-link>
       </div>
       <div class="right">
         <router-link class="link one" to="/projects">Projects</router-link>
-        <router-link class="link two" to="/events">Events</router-link>
       </div>
     </nav>
   </div>
@@ -98,23 +97,15 @@ export default {
   top: 50%;
   transform: rotate(90deg);
 }
-.right .one:hover {
-  color: green;
-  font-weight: bold;
-}
 
-.right .router-link-active {
-  color: green;
-  font-weight: bold;
-}
-
-.right .two:hover {
+.right:hover {
   color: blue;
   font-weight: bold;
 }
 
 .right .router-link-exact-active {
   color: blue;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 800px) {
@@ -162,6 +153,14 @@ export default {
   .top {
     top: 3%;
     margin-top: 0rem;
+  }
+
+  .left {
+    left: 0;
+  }
+
+  .right {
+    right: 0;
   }
 
   .bottom {
