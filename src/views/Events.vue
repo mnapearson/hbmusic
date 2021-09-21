@@ -7,21 +7,19 @@
         <div class="event">
           <p>09.09.21</p>
           <p>12h - 17h</p>
-          <router-link class="link" to="/traumgaben"
-            ><p>Traumgaben</p></router-link
-          >
+          <p>Traumgaben</p>
           <p>@Pittlerwerke</p>
-          <div class="event">
+        </div>
+        <div class="event">
             <p>10.09.21</p>
             <p>19h-21h</p>
             <p>Reso:Kollektiv</p>
             <p>@Gewandhaus</p>
-          </div>
-          <div class="event">
+        </div>
+        <div class="event">
             <p>29.10.21</p>
             <router-link class="link" to="/oluma"><p>Oluma</p></router-link>
             <p>@Horns Erben</p>
-          </div>
         </div>
       </div>
     </div>
