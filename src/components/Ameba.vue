@@ -20,6 +20,7 @@
           <div class="project-events">
             <h3>upcoming events</h3>
             <p>06.08.2021 @Casa Pepe, Leipzig</p>
+            <p>06.10.2021 @Casa Pepe, Leipzig</p>
           </div>
         </div>
       </div>
