@@ -4,11 +4,12 @@
     <div class="about-content">
       <div class="about-text">
         <p>
-          Henrik Baumgarten ist ein professioneller Saxophonist, aus Leipzig.
-          Angefangen im Landesjugendjazzorchester Brandenburg, unter Jiggs
-          Whigham., 2006 steht er seit 2007 mit den verschiedensten Formationen
-          auf der Bühne. Es folgten während seines Saxophonstudiums 2010 - 2015
-          die projekte
+          Henrik Baumgarten, geboren 1990 in Berlin, ist ein professioneller Saxophonist, Komponist und Musikpädagoge.
+Seit 2009 lebt er in Leipzig.  
+Das Saxophon war das erste Instrument mit dem er in seinem 10. Lebensjahr in Berührung kam.
+Durch das intensive Hören und Sammeln von Jazzplatten der 60er Jahre - allen Interpreten voran standen Miles Davis und John Coltrane - entwickelte sich eine persönliche Verbindung zu dem Instrument und der Musik, die ihn seither begleitet.  
+Angefangen hat seine musikalische Laufbahn im Landesjugendjazzorchester Brandenburg, unter Jiggs Whigham im Jahr 2006. Immer auf der Suche nach Gleichgesinnten steht er seit 2007 mit den verschiedensten Formationen auf der Bühne.
+Es folgten während seines Saxophonstudiums 2010 - 2015 die projekte 
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -19,13 +20,10 @@
           in der leipziger Jazzszene.
         </p>
         <p>
-          In dieser Zeit erlernte er auch autodidaktisch Klarinette und
-          Querflöte. 2015-2020 war er Mitglied in der in Leipzig ansässigen
-          BigBand „Spielvereinigung Sued“ und deren Kooperation „Brigade Futur
-          III“ Musikalisch fühlt er sich vor allem seinen Instrumenten
-          verpflichtet und versucht in seiner Musik die klanglichen
-          Möglichkeiten des Saxophons und der Klarinette auszureizen.
-          Instrumentaler Freigeist mit Mut zum Kitsch.
+          In dieser Zeit erlernte er auch autodidaktisch Klarinette und Querflöte.
+2015-2020 war er Mitglied in der in Leipzig ansässigen BigBand „Spielvereinigung Sued“ und deren Kooperation „Brigade Futur III“
+Musikalisch fühlt er sich vor allem seinen Instrumenten verpflichtet und versucht in seiner Musik die klanglichen Möglichkeiten des Saxophons und der Klarinette auszureizen. 
+Neben seinen festen Bandprojekten ist Henrik Baumgarten immer offen für den Austausch mit anderen Projekten und musikalischen Begegnungen aller Art. 
         </p>
       </div>
       <div class="about-carousel">
