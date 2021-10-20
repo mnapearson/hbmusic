@@ -15,7 +15,8 @@
         <div class="project-description">
           <div class="project-title">
             <h3>Traumgaben</h3>
-            <p>My own Jazz.</p>
+            <p>My own Jazz.Künstlerische und kreative Handlungen sind ein Ausbruch aus einer rationalen deterministischen Wirklichkeit, die von der Gesellschaft in der wir Leben definiert wird. Deshalb mache ich Musik. Um Räume zu schaffen in denen man einen Blick aus dieser Wirklichkeit werfen kann.
+Im Zentrum meiner eigenen Musik stand schon immer der Dialog auf der Bühne, die Spontanität, das miteinander Kreieren. Wenn dabei Kompositionen entstehen, dann sind diese die Basis für diese Experimente. Was hier entsteht ist immer eine Gruppenleistung, die jedes mal „Live“ entsteht. Ich trete regelmäßig in verschiedenen Besetzungen und Formaten auf.</p>
           </div>
           <div class="project-events">
             <h3>upcoming events</h3>
