@@ -5,12 +5,6 @@
       <h3>upcoming events</h3>
       <div class="events-grid">
         <div class="event">
-          <p>09.09.21</p>
-          <p>12h - 17h</p>
-          <p>Traumgaben</p>
-          <p>@Pittlerwerke</p>
-        </div>
-        <div class="event">
             <p>10.09.21</p>
             <p>19h-21h</p>
             <p>Reso:Kollektiv</p>
@@ -18,6 +12,7 @@
         </div>
         <div class="event">
             <p>29.10.21</p>
+            <p>20:00 Uhr</p>
             <router-link class="link" to="/oluma"><p>Oluma</p></router-link>
             <p>@Horns Erben</p>
         </div>
