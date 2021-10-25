@@ -4,12 +4,18 @@
     <div class="about-content">
       <div class="about-text">
         <p>
-          Henrik Baumgarten, geboren 1990 in Berlin, ist ein professioneller Saxophonist, Komponist und Musikpädagoge.
-Seit 2009 lebt er in Leipzig.  
-Das Saxophon war das erste Instrument mit dem er in seinem 10. Lebensjahr in Berührung kam.
-Durch das intensive Hören und Sammeln von Jazzplatten der 60er Jahre - allen Interpreten voran standen Miles Davis und John Coltrane - entwickelte sich eine persönliche Verbindung zu dem Instrument und der Musik, die ihn seither begleitet.  
-Angefangen hat seine musikalische Laufbahn im Landesjugendjazzorchester Brandenburg, unter Jiggs Whigham im Jahr 2006. Immer auf der Suche nach Gleichgesinnten steht er seit 2007 mit den verschiedensten Formationen auf der Bühne.
-Es folgten während seines Saxophonstudiums 2010 - 2015 die projekte 
+          Henrik Baumgarten, geboren 1990 in Berlin, ist ein professioneller
+          Saxophonist, Komponist und Musikpädagoge. Seit 2009 lebt er in
+          Leipzig. Das Saxophon war das erste Instrument mit dem er in seinem
+          10. Lebensjahr in Berührung kam. Durch das intensive Hören und Sammeln
+          von Jazzplatten der 60er Jahre - allen Interpreten voran standen Miles
+          Davis und John Coltrane - entwickelte sich eine persönliche Verbindung
+          zu dem Instrument und der Musik, die ihn seither begleitet. Angefangen
+          hat seine musikalische Laufbahn im Landesjugendjazzorchester
+          Brandenburg, unter Jiggs Whigham im Jahr 2006. Immer auf der Suche
+          nach Gleichgesinnten steht er seit 2007 mit den verschiedensten
+          Formationen auf der Bühne. Es folgten während seines Saxophonstudiums
+          2010 - 2015 die projekte
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -20,10 +26,15 @@ Es folgten während seines Saxophonstudiums 2010 - 2015 die projekte
           in der leipziger Jazzszene.
         </p>
         <p>
-          In dieser Zeit erlernte er auch autodidaktisch Klarinette und Querflöte.
-2015-2020 war er Mitglied in der in Leipzig ansässigen BigBand „Spielvereinigung Sued“ und deren Kooperation „Brigade Futur III“
-Musikalisch fühlt er sich vor allem seinen Instrumenten verpflichtet und versucht in seiner Musik die klanglichen Möglichkeiten des Saxophons und der Klarinette auszureizen. 
-Neben seinen festen Bandprojekten ist Henrik Baumgarten immer offen für den Austausch mit anderen Projekten und musikalischen Begegnungen aller Art. 
+          In dieser Zeit erlernte er auch autodidaktisch Klarinette und
+          Querflöte. 2015-2020 war er Mitglied in der in Leipzig ansässigen
+          BigBand „Spielvereinigung Sued“ und deren Kooperation „Brigade Futur
+          III“ Musikalisch fühlt er sich vor allem seinen Instrumenten
+          verpflichtet und versucht in seiner Musik die klanglichen
+          Möglichkeiten des Saxophons und der Klarinette auszureizen. Neben
+          seinen festen Bandprojekten ist Henrik Baumgarten immer offen für den
+          Austausch mit anderen Projekten und musikalischen Begegnungen aller
+          Art.
         </p>
       </div>
       <div class="about-carousel">
@@ -47,10 +58,6 @@ export default {
 </script>
 
 <style scoped>
-body {
-  overflow: hidden;
-}
-
 .about-content {
   display: flex;
   position: fixed;
@@ -66,6 +73,7 @@ body {
   line-height: 22px;
   min-width: 50%;
   margin-right: 3rem;
+  overflow-y: auto;
 }
 
 .about-carousel {
@@ -111,12 +119,20 @@ img {
 
   .about-content {
     flex-direction: column;
+    margin-top: 2rem;
   }
 
   .about-text {
     font-size: 10px;
     line-height: 18px;
-    margin: 0;
+    height: 250px;
+    padding-top: 9rem;
+    margin-bottom: 3rem;
+    margin-top: -3rem;
+  }
+
+  img {
+    display: none;
   }
 
   .mobile-hidden {
