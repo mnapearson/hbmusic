@@ -18,11 +18,11 @@
             <p>Live Hip Hop Jazz Fusion! Gegründet in 2020 steht AMEBA für Chaos ebenso wie für die natürliche Schönheit des Lebens. In ihren Kompositionen und Improvisationen versuchen sie stets ihr Innerstes zu teilen und Geschichten zu erzählen. Groove und treibende Bässe sind dabei die Grundlage ihrer Musik.</p>
 
 <p>
-Diego Alejandro Gonzales – Electric Bass
-Hakim Azmi – E-Piano
-Henrik Baumgarten – Tenorsaxophon
-J.J. Jakobson – Posaune
-Leonie - Schlagzeug</p>
+Diego Alejandro Gonzales – Electric Bass</p>
+<p>Hakim Azmi – E-Piano</p>
+<p>Henrik Baumgarten – Tenorsaxophon</p>
+<p>J.J. Jakobson – Posaune</p>
+<p>Leonie Sobek - Schlagzeug</p>
           </div>
           <div class="project-events">
             <h3>upcoming events</h3>
