@@ -21,7 +21,7 @@
 Diego Alejandro Gonzales – Electric Bass</p>
 <p>Hakim Azmi – E-Piano</p>
 <p>Henrik Baumgarten – Tenorsaxophon</p>
-<p>J.J. Jakobson – Posaune</p>
+<p>Jakob Jung – Posaune</p>
 <p>Leonie Sobek - Schlagzeug</p>
           </div>
           <div class="project-events">
