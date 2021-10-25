@@ -25,7 +25,6 @@
             <p>19:30h-23h</p>
             <p>Moritz Land Quartet</p>
             <p>@Moritzbastei</p>
-            <p>
         </div>
       </div>
     </div>
