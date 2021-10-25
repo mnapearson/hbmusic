@@ -15,6 +15,11 @@
             <p>20:00 Uhr</p>
             <router-link class="link" to="/oluma"><p>Oluma</p></router-link>
             <p>@Horns Erben</p>
+            <div class="event">
+            <p>11.10.2021</p>
+            <p>20h-22h</p>
+            <p>Ameba</p>
+            <p>Horns Erben</p>
         </div>
       </div>
     </div>
