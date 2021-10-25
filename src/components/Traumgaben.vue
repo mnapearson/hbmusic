@@ -20,7 +20,8 @@ Im Zentrum meiner eigenen Musik stand schon immer der Dialog auf der Bühne, die
           </div>
           <div class="project-events">
             <h3>upcoming events</h3>
-            <p>tbd</p>
+            <p>23.11.2021 19:30h @Moritzbastei</p>
+            <p>feat. Moritz Land Quartet</p>
           </div>
         </div>
       </div>
