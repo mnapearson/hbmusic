@@ -62,6 +62,10 @@ export default {
 </script>
 
 <style scoped>
+body {
+  overflow: hidden;
+}
+
 .projects-grid {
   position: fixed;
   display: inline-grid;

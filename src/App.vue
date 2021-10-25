@@ -58,9 +58,7 @@ export default {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-body {
-  overflow: hidden;
-}
+
 
 .audio img {
   width: 20px;

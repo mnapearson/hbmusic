@@ -20,6 +20,10 @@ export default {
 </script>
 
 <style scoped>
+body {
+  overflow: hidden;
+}
+
 .image {
   display: flex;
   position: absolute;

@@ -40,6 +40,11 @@ export default {
 </script>
 
 <style scoped>
+
+body {
+  overflow: hidden;
+}
+
 h3 {
   font-size: 12px;
 }

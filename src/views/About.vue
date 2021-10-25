@@ -49,6 +49,10 @@ export default {
 </script>
 
 <style scoped>
+body {
+  overflow: hidden;
+}
+
 .about-content {
   display: flex;
   position: fixed;
