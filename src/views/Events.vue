@@ -19,7 +19,13 @@
             <p>11.10.2021</p>
             <p>20h-22h</p>
             <p>Ameba</p>
-            <p>Horns Erben</p>
+            <p>@Horns Erben</p>
+            <div class="event">
+            <p>23.11.2021</p>
+            <p>19:30h-23h</p>
+            <p>Moritz Land Quartet</p>
+            <p>@Moritzbastei</p>
+            <p>
         </div>
       </div>
     </div>
