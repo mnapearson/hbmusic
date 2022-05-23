@@ -40,7 +40,7 @@
             <p>29.10.2021 @Horns Erben- Arndtstraße 33, 04275 Leipzig
             </p>
             <p>03.06.2022, 22:00h - 06:00 @Westbahnhof https://westbahnhof-leipzig.de/Termine/
-            </p
+            </p>
           </div>
         </div>
       </div>
