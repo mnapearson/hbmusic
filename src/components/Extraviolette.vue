@@ -28,7 +28,7 @@
           <h3>upcoming events</h3>
           <p>24.06.22
              20:30 
-             @Substanz, Täubchenweg 67 
+             @Substanz, Täubchenweg 67, 
              Leipzig</p>
         </div>
       </div>
