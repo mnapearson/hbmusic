@@ -26,7 +26,10 @@
         </div>
         <div class="project-events">
           <h3>upcoming events</h3>
-          <p>tbd</p>
+          <p>24.06.22
+             20:30 
+             @Substanz, Täubchenweg 67 
+             Leipzig</p>
         </div>
       </div>
       <div class="project-right">
