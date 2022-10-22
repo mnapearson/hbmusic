@@ -77,7 +77,7 @@
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.youtube.com/watch?v=-okFMwPcBYA"
+              href="https://www.youtube.com/channel/UCGTYIfobPzwUf2Gz_xH6NNw"
               ><span
                 class="iconify"
                 data-inline="false"
