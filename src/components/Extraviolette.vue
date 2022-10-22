@@ -56,8 +56,7 @@
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.facebook.com/Extraviolette/"
-            ></a>
-            <span
+            ><span
               class="iconify"
               data-inline="false"
               data-icon="bi:facebook"
