@@ -6,13 +6,11 @@
         <div class="project-description">
           <h3>extraviolette</h3>
           <p>
-            Die Floral Geräucherte extra heiße Band, die selbst den Papst zum
-            tanzen kriegt ist ready . Extraviolette steht für Disco, Liebe,
+            Extraviolette steht für Disco, Liebe,
             Vielfalt, Loslassen, Befreiung und die Nacht durch-tanzen.
-            Extraviolette ist die Farbe der Emanzipation – Emanzipation aller
-            Geschlechter und Gedanken, die Farbe der Verwandlung, der
-            Inspiration und der Individualität. Sie will euch auf eine Auszeit
-            für eure Sorgen mitnehmen und macht einen „extra“ Workout für euer
+            Extraviolette ist die Farbe der Emanzipation, die Farbe der Verwandlung, 
+            der Inspiration und der Individualität. Sie will euch auf eine Auszeit
+            von eurem Alltag mitnehmen und macht einen „extra“ Workout für euer
             inneres Licht und eure Füße. Inspiriert von dem Geist und der
             Energie der Discoera der 1970er Jahre, bringen sie eine mitreißende
             Show auf die Bühne, in der man sich gerne verliert.
@@ -72,7 +70,7 @@
               class="iconify"
               data-inline="false"
               data-icon="bi:instagram"
-            ></span
+            ></span>
             <a
               target="_blank"
               rel="noopener noreferrer"
