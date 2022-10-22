@@ -68,12 +68,11 @@
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.instagram.com/extra.violette/"
-            ></a>
-            <span
+            ><span
               class="iconify"
               data-inline="false"
               data-icon="bi:instagram"
-            ></span>
+            ></span
             <a
               target="_blank"
               rel="noopener noreferrer"
