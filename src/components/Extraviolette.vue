@@ -38,7 +38,7 @@
               rel="noopener noreferrer"
               href="https://extraviolette.de/"
             >
-              <img src="../images/extraviolette.jpg" alt=""
+              <img src="../images/ensemble.jpg" alt=""
             /></a>
           </div>
           <div class="project-links">
