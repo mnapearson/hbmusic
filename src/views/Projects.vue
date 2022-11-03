@@ -6,7 +6,7 @@
         <router-link class="link" to="/Extraviolette">
           <div class="container">
             <div class="centered">extraviolette</div>
-            <img src="../images/extraviolette.jpg" alt="" />
+            <img src="../images/ensemble.jpg" alt="" />
           </div>
         </router-link>
       </div>
